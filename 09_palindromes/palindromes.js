@@ -11,5 +11,11 @@ const palindromes = function (string) {
     return letterArray.join() == reverseArray.join();
 };
 
+//.reverse alters og array, slice creates copy
+//.split returns new array!
+//processedString = string.toLowerCase().replace(/[^a-z]/g, "")
+//could use that ^ next time
+
+
 // Do not edit below this line
 module.exports = palindromes;
